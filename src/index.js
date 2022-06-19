@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -22,26 +21,6 @@ root.render(
         </BrowserRouter>
       </ChakraProvider>
     </Provider>
-=======
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-
-import { BrowserRouter } from "react-router-dom"
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-import { ChakraProvider } from "@chakra-ui/react"
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <ChakraProvider>
-    <BrowserRouter>
-      <App />
-      </BrowserRouter>
-    </ChakraProvider>
-    
->>>>>>> 0bc88167daece1ef3a5cf5bf90e49f0051dcb66d
   </React.StrictMode>
 );
 
